@@ -1,3 +1,15 @@
+#define WIN32_LEAN_AND_MEAN
+#pragma once
+
+#include <stdio.h>
+#include <windows.h>
+#include <map>
+
+#include "includes/pieces.h"
+#include "includes/board.h"
+#include "includes/serialization.h"
+#include "includes/movement.h"
+
 int main(void)
 {
 
